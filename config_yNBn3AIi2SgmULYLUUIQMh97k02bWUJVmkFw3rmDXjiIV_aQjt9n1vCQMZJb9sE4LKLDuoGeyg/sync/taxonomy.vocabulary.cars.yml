@@ -1,0 +1,8 @@
+uuid: bca2592d-ca65-43a1-ba8e-086d69900cf4
+langcode: en
+status: true
+dependencies: {  }
+name: Cars
+vid: cars
+description: 'This vocabulary contains all the types of cars as terms'
+weight: 0

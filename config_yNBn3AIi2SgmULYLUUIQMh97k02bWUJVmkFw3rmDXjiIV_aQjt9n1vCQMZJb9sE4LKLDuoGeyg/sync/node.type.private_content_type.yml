@@ -1,0 +1,18 @@
+uuid: 53925db8-a2fe-4c85-9bbe-413610a1b9df
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: private_content_type
+type: private_content_type
+description: 'This content type stores private file field to store the sensitive data'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

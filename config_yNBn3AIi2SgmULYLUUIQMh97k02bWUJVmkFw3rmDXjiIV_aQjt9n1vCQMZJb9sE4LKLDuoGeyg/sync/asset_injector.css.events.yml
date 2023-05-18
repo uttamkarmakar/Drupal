@@ -1,0 +1,29 @@
+uuid: 6fb7b609-9bb9-4a0f-81d9-20191707c182
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: events
+label: event-section
+code: |-
+  .event-section .views-view-grid {
+  	border:3px solid red;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: zuvi
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      events: events
+contexts: {  }
+conditions_require_all: false

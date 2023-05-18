@@ -1,0 +1,27 @@
+uuid: de171c73-09a6-4378-8f85-04cacda8aa6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file_download
+    - node.type.famous_cricketer
+  module:
+    - file
+id: node.famous_cricketer.field_file_download
+field_name: field_file_download
+entity_type: node
+bundle: famous_cricketer
+label: 'File Download'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: 30MB
+  description_field: false
+field_type: file

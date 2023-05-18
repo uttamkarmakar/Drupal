@@ -1,0 +1,20 @@
+uuid: 2353b25c-3449-4947-943e-40811cd94357
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_trivia
+field_name: field_trivia
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: c9a1a10a-0f72-426c-aa7d-2175a27e1c2b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Task Priority'
+vid: task_priority
+description: 'This vocabulary stores the priority of a particular task'
+weight: 0

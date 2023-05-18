@@ -1,0 +1,19 @@
+uuid: a94145a7-5e58-4730-be0a-b604f7f39ed0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_event_sponsers
+field_name: field_event_sponsers
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

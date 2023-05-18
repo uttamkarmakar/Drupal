@@ -1,0 +1,21 @@
+uuid: a2c4fabf-3aeb-415e-9917-cae6bc6bf3d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.famous_cricketer
+  module:
+    - datetime
+id: node.famous_cricketer.field_date
+field_name: field_date
+entity_type: node
+bundle: famous_cricketer
+label: Born
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

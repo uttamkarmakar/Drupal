@@ -1,0 +1,8 @@
+uuid: 5b68efc4-b46c-48f9-8c35-d68a7d3422d6
+langcode: en
+status: true
+dependencies: {  }
+id: four-wheelers-automobile
+label: 'Four Wheelers Automobile'
+description: ''
+locked: false

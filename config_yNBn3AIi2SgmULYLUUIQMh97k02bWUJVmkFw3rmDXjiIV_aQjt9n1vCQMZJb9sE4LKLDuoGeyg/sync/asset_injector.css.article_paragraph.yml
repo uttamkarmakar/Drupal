@@ -1,0 +1,35 @@
+uuid: 1f43ec6d-882e-4023-bb1b-a921b7b5e956
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+id: article_paragraph
+label: article-paragraph
+code: |-
+  .article-paragraph .field-content{
+    text-align: justify;
+    width: 221px;
+  }
+  .article-paragraph .views-view-grid {
+  	border: 3px solid #f26c4f;
+    padding: 21px;
+    border-radius:10px;
+  }
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: zuvi
+contexts: {  }
+conditions_require_all: false

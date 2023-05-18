@@ -1,0 +1,26 @@
+uuid: 55db44c0-f14f-4135-ab70-2072f8681c3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zuvi
+_core:
+  default_config_hash: Ql-5SP0-nMyJ5UbCGDxKZNHLjEB2yXBCw7it8LnXP_c
+id: zuvi_breadcrumbs
+theme: zuvi
+region: page_header
+weight: -17
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

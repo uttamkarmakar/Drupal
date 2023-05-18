@@ -1,0 +1,29 @@
+uuid: 7d629091-f45b-4f62-a429-8e47245ca15e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article
+    - node.type.article
+    - node.type.sample
+id: node.sample.field_article
+field_name: field_article
+entity_type: node
+bundle: sample
+label: 'Sample title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

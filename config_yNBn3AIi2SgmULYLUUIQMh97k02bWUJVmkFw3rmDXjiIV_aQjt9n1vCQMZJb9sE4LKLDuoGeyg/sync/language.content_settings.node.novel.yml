@@ -1,0 +1,18 @@
+uuid: a2d27995-a240-465a-8933-dfa58f7f7ac8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.novel
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.novel
+target_entity_type_id: node
+target_bundle: novel
+default_langcode: site_default
+language_alterable: true

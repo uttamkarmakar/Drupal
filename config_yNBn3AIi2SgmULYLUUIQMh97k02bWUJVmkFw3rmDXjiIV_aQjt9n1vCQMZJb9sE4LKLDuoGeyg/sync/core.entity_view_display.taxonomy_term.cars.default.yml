@@ -1,0 +1,35 @@
+uuid: 113c4a15-0e3a-4400-9442-6c423bbb77e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.cars.field_car_image
+    - taxonomy.vocabulary.cars
+  module:
+    - image
+    - text
+id: taxonomy_term.cars.default
+targetEntityType: taxonomy_term
+bundle: cars
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_car_image:
+    type: image
+    label: inline
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

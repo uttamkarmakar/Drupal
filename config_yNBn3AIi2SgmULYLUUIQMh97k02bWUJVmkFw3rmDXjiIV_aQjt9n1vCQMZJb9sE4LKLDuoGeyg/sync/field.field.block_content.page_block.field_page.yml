@@ -1,0 +1,21 @@
+uuid: f7cb1e1d-a525-4b56-8f64-71a0148daba3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.page_block
+    - field.storage.block_content.field_page
+  module:
+    - text
+id: block_content.page_block.field_page
+field_name: field_page
+entity_type: block_content
+bundle: page_block
+label: Page
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

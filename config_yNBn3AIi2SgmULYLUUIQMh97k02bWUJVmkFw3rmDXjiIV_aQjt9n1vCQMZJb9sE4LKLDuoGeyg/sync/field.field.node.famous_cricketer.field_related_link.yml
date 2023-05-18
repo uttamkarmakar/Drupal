@@ -1,0 +1,23 @@
+uuid: d40f60ac-1e4f-4191-919c-ce4acdfd6600
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_link
+    - node.type.famous_cricketer
+  module:
+    - link
+id: node.famous_cricketer.field_related_link
+field_name: field_related_link
+entity_type: node
+bundle: famous_cricketer
+label: 'Related Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

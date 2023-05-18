@@ -1,0 +1,25 @@
+uuid: ff58973e-ae5e-45ac-80a7-51c2ac06ede2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:61709ad3-b34f-4209-9545-bdc61c027b7f'
+  module:
+    - block_content
+  theme:
+    - zuvi
+id: welcometocricpalace
+theme: zuvi
+region: content_home
+weight: -14
+provider: null
+plugin: 'block_content:61709ad3-b34f-4209-9545-bdc61c027b7f'
+settings:
+  id: 'block_content:61709ad3-b34f-4209-9545-bdc61c027b7f'
+  label: 'Welcome to CricPalace'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

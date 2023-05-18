@@ -1,0 +1,18 @@
+uuid: 803fe0e7-a233-46c4-a3d7-0590fd9f312d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: novel
+type: novel
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

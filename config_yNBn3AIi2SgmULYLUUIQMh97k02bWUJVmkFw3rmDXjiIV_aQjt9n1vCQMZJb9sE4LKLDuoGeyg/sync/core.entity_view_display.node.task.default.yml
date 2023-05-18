@@ -1,0 +1,62 @@
+uuid: 10ac0ed5-596f-48e7-8b70-8f6b0343cb69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.task.field_assigned_to
+    - field.field.node.task.field_due_date
+    - field.field.node.task.field_task_image
+    - field.field.node.task.field_task_priority
+    - node.type.task
+  module:
+    - datetime
+    - image
+    - user
+id: node.task.default
+targetEntityType: node
+bundle: task
+mode: default
+content:
+  field_assigned_to:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_due_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_task_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_task_priority:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

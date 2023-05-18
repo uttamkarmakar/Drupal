@@ -1,0 +1,21 @@
+uuid: 16ebaef5-d46e-47d9-aa9c-2b1d7d68da34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_latest_news
+    - node.type.news
+  module:
+    - text
+id: node.news.field_latest_news
+field_name: field_latest_news
+entity_type: node
+bundle: news
+label: 'Latest news'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

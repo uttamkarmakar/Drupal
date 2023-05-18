@@ -1,0 +1,21 @@
+uuid: 5a1f2486-15f4-41ed-ba34-fb5adf4c6594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trivia
+    - node.type.famous_cricketer
+  module:
+    - text
+id: node.famous_cricketer.field_trivia
+field_name: field_trivia
+entity_type: node
+bundle: famous_cricketer
+label: Trivia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

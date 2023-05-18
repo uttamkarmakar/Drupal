@@ -1,0 +1,23 @@
+uuid: 5a8d145d-1200-4735-a933-b25b09b22467
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_number
+    - node.type.news_update
+id: node.news_update.field_phone_number
+field_name: field_phone_number
+entity_type: node
+bundle: news_update
+label: 'Phone Number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

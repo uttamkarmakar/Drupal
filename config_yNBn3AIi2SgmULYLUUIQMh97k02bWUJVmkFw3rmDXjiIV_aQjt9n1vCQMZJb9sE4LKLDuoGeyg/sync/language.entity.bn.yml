@@ -1,0 +1,9 @@
+uuid: 818acc0f-d373-49d5-a7b1-30939887b998
+langcode: en
+status: true
+dependencies: {  }
+id: bn
+label: Bengali
+direction: ltr
+weight: 1
+locked: false

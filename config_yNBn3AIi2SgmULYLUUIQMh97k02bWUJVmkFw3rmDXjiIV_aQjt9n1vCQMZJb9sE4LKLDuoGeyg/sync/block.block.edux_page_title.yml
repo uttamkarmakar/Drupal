@@ -1,0 +1,20 @@
+uuid: ed9e599b-7de2-4b6a-8b13-f6566cd91ef9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - edux
+_core:
+  default_config_hash: IIdjffnFTcIU1p5t9aGpCBlygIjgC1m_8pzTEd0jDcQ
+id: edux_page_title
+theme: edux
+region: page_header
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

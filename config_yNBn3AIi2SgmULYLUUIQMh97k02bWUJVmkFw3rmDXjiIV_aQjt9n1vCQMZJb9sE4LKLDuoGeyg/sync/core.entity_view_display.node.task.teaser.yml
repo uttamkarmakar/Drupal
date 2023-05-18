@@ -1,0 +1,29 @@
+uuid: b4febd2c-4f5b-458a-a726-d2d113c79200
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.task.field_assigned_to
+    - field.field.node.task.field_due_date
+    - field.field.node.task.field_task_image
+    - field.field.node.task.field_task_priority
+    - node.type.task
+  module:
+    - user
+id: node.task.teaser
+targetEntityType: node
+bundle: task
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_assigned_to: true
+  field_due_date: true
+  field_task_image: true
+  field_task_priority: true
+  langcode: true

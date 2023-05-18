@@ -1,0 +1,26 @@
+uuid: 429dd765-18a9-4740-99a3-00ad2a85889e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: footer_list
+label: 'footer list'
+code: |
+  .block-title {
+    color:#f26c4f;
+    border-bottom:violet;
+  }
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      page: page
+contexts: {  }
+conditions_require_all: true

@@ -1,0 +1,20 @@
+uuid: cff3aa56-e0f2-4339-83ee-a884497defa1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_test_number
+field_name: field_test_number
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: 4d4538fb-8dfc-4b9c-a84a-74ffca0167f7
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'This vocabulary stores the category type of a particular news'
+weight: 0

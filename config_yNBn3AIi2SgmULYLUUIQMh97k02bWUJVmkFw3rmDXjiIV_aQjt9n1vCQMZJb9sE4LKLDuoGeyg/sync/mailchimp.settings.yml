@@ -1,0 +1,16 @@
+_core:
+  default_config_hash: eGkxXNKBcErOoH4AGesSlZjrybyTorQ9qEpUzFBEBP4
+api_key: e65df9afcfb5c0e17852cf6fd8078302-us21
+domain: mysite.com
+use_oauth: true
+oauth_middleware_url: 'https://drupal-mailchimp-oauth.uw.r.appspot.com'
+api_timeout: 10
+cron: false
+batch_limit: 100
+api_classname: Mailchimp\Mailchimp
+test_mode: false
+enable_connected: true
+connected_id: null
+connected_paths: null
+webhook_hash: ceadf76162689bb7c770cf02f86b11cd-us21
+optin_check_email_msg: 'Please check your email to confirm your subscription.'

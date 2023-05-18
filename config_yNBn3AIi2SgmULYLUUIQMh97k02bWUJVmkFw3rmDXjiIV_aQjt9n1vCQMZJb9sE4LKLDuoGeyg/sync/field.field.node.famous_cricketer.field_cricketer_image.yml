@@ -1,0 +1,38 @@
+uuid: a95d981f-8143-4b93-8c91-f801fa469385
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cricketer_image
+    - node.type.famous_cricketer
+  module:
+    - image
+id: node.famous_cricketer.field_cricketer_image
+field_name: field_cricketer_image
+entity_type: node
+bundle: famous_cricketer
+label: 'Cricketer Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

@@ -1,0 +1,21 @@
+uuid: 7bf7328a-d05a-420f-b413-2d4be9802bf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_novel_name
+    - node.type.novel
+  module:
+    - text
+id: node.novel.field_novel_name
+field_name: field_novel_name
+entity_type: node
+bundle: novel
+label: 'Novel Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

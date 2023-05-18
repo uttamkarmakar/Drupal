@@ -1,0 +1,17 @@
+uuid: cf4ea559-ecad-43ee-bbb7-6bb148697d7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'User groups'
+type: user_groups
+description: 'From here we will track all the user around the world'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 90b0ba38-864c-4411-8d40-abf292db2259
+name: 'Drupal Trainning'
+mail: uttam.karmakar@innoraft.com
+slogan: 'Best place to learn drupal concepts'
+page:
+  403: /node/19
+  404: /node/54
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

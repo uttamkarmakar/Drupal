@@ -1,0 +1,27 @@
+uuid: d646f9d2-e3c0-4d46-9e66-14224364cdb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cars.field_car_image
+    - field.field.node.cars.field_car_name
+    - field.field.node.cars.field_car_type
+    - node.type.cars
+  module:
+    - user
+id: node.cars.teaser
+targetEntityType: node
+bundle: cars
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_car_image: true
+  field_car_name: true
+  field_car_type: true
+  langcode: true

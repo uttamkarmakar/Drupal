@@ -1,0 +1,11 @@
+uuid: d0bd6711-408e-4094-aaa2-aa4a65d802d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - mailchimp_events
+id: mailchimp_event.mailchimp_event
+target_entity_type_id: mailchimp_event
+target_bundle: mailchimp_event
+default_langcode: site_default
+language_alterable: false

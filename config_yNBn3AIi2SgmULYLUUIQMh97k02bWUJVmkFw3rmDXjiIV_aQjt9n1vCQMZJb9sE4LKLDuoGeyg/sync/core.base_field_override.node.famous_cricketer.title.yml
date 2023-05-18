@@ -1,0 +1,18 @@
+uuid: 754307f4-da04-4b2e-b4a1-3ef97851c673
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.famous_cricketer
+id: node.famous_cricketer.title
+field_name: title
+entity_type: node
+bundle: famous_cricketer
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

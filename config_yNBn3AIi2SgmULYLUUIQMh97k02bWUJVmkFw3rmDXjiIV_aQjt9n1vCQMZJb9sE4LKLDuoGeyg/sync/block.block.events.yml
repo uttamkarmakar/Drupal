@@ -1,0 +1,33 @@
+uuid: 4f32ebf4-92b8-4fbf-b1b5-26b130f5d39b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d5918a55-3566-4eac-b27a-301eac608782'
+  module:
+    - block_content
+    - node
+  theme:
+    - zuvi
+id: events
+theme: zuvi
+region: footer_bottom
+weight: -15
+provider: null
+plugin: 'block_content:d5918a55-3566-4eac-b27a-301eac608782'
+settings:
+  id: 'block_content:d5918a55-3566-4eac-b27a-301eac608782'
+  label: Events
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      events: events

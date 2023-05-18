@@ -1,0 +1,48 @@
+uuid: 27d0b3c1-0fd5-4cb5-924c-4851ce33747e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0c07067d-6231-4cfd-be98-a6b6caae347c'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - zuvi
+id: footermenu1
+theme: zuvi
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:0c07067d-6231-4cfd-be98-a6b6caae347c'
+settings:
+  id: 'block_content:0c07067d-6231-4cfd-be98-a6b6caae347c'
+  label: 'Footer Menu 1'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      author: author
+      book: book
+      cars: cars
+      events: events
+      famous_cricketer: famous_cricketer
+      news: news
+      news_update: news_update
+      page: page
+      sample: sample
+      slideshow: slideshow
+      user_groups: user_groups

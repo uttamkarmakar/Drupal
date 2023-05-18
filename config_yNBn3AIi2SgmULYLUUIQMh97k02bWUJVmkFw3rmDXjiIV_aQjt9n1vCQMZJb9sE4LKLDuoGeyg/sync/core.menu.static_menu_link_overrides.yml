@@ -1,0 +1,45 @@
+_core:
+  default_config_hash: CXhei_vpaZk-3f_Mj2cH0YmpK-ZpKHoSzVA3yZrDq0g
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__four_wheelers_automobile__14':
+    weight: -50
+    menu_name: four-wheelers-automobile
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__four_wheelers_automobile__18':
+    weight: -48
+    menu_name: four-wheelers-automobile
+    parent: ''
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__four_wheelers_automobile__17':
+    weight: -47
+    menu_name: four-wheelers-automobile
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__four_wheelers_automobile__16':
+    weight: -46
+    menu_name: four-wheelers-automobile
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__four_wheelers_automobile__15':
+    weight: -49
+    menu_name: four-wheelers-automobile
+    parent: ''
+    expanded: false
+    enabled: true

@@ -1,0 +1,45 @@
+uuid: 093021e1-5e49-4f81-a85c-8d9bcb99a9a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.famous_cricketer.body
+    - field.field.node.famous_cricketer.field_cricketer_image
+    - field.field.node.famous_cricketer.field_date
+    - field.field.node.famous_cricketer.field_death
+    - field.field.node.famous_cricketer.field_file_download
+    - field.field.node.famous_cricketer.field_known_for
+    - field.field.node.famous_cricketer.field_related_link
+    - field.field.node.famous_cricketer.field_trivia
+    - node.type.famous_cricketer
+  module:
+    - text
+    - user
+id: node.famous_cricketer.teaser
+targetEntityType: node
+bundle: famous_cricketer
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cricketer_image: true
+  field_date: true
+  field_death: true
+  field_file_download: true
+  field_known_for: true
+  field_related_link: true
+  field_trivia: true
+  langcode: true

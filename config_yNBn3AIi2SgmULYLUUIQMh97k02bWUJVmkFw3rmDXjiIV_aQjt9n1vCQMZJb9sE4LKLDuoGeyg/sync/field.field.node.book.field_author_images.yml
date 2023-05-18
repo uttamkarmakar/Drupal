@@ -1,0 +1,21 @@
+uuid: 1ea12488-567c-4588-a2af-b6a7ae06c1b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_images
+    - node.type.book
+id: node.book.field_author_images
+field_name: field_author_images
+entity_type: node
+bundle: book
+label: 'Author Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

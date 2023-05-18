@@ -1,0 +1,69 @@
+uuid: d6949459-8937-42e9-88b1-4a731691c1b0
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.personal_data_view_mode
+    - field.field.node.book.body
+    - field.field.node.book.field_author
+    - field.field.node.book.field_author_images
+    - field.field.node.book.field_cover_image
+    - field.field.node.book.field_year_of_publication
+    - node.type.book
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.book.personal_data_view_mode
+targetEntityType: node
+bundle: book
+mode: personal_data_view_mode
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_author:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_cover_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_year_of_publication:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author_images: true
+  langcode: true

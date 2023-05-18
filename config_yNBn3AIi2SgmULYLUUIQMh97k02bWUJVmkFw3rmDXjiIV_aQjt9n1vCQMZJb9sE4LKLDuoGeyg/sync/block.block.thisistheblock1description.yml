@@ -1,0 +1,30 @@
+uuid: 71d33453-89cf-4af5-955a-faaf00935b9c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:cd85aaa7-4b23-40d8-add0-b8545281e25b'
+  module:
+    - block_content
+    - system
+  theme:
+    - zuvi
+id: thisistheblock1description
+theme: zuvi
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:cd85aaa7-4b23-40d8-add0-b8545281e25b'
+settings:
+  id: 'block_content:cd85aaa7-4b23-40d8-add0-b8545281e25b'
+  label: 'This is the block 1 description'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /articles

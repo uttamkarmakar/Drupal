@@ -1,0 +1,8 @@
+uuid: 724c90a9-9184-49f3-ac4b-e2259e049f30
+langcode: en
+status: true
+dependencies: {  }
+name: Authors
+vid: authors
+description: 'This vocabulary stores the terms for different authors '
+weight: 0

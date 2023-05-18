@@ -1,0 +1,20 @@
+uuid: 556750f7-e514-4b23-9102-2b54aba0e837
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.famous_cricketer
+id: node.famous_cricketer.uid
+field_name: uid
+entity_type: node
+bundle: famous_cricketer
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

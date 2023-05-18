@@ -1,0 +1,20 @@
+uuid: 8f000da5-eb27-4255-bc3d-7fafc2cc329f
+langcode: en
+status: true
+dependencies:
+  module:
+    - gtranslate
+  theme:
+    - zuvi
+id: gtranslate
+theme: zuvi
+region: primary_menu
+weight: -17
+provider: null
+plugin: gtranslate_block
+settings:
+  id: gtranslate_block
+  label: GTranslate
+  label_display: visible
+  provider: gtranslate
+visibility: {  }

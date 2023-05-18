@@ -1,0 +1,29 @@
+uuid: f5acfced-1cdb-4712-8b69-3c3fa0582d1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.four-wheelers-automobile
+  module:
+    - system
+  theme:
+    - zuvi
+id: fourwheelersautomobile
+theme: zuvi
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:four-wheelers-automobile'
+settings:
+  id: 'system_menu_block:four-wheelers-automobile'
+  label: 'Four Wheelers Automobile'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /automobiles

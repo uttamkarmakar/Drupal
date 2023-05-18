@@ -1,0 +1,18 @@
+uuid: bfe3f06a-24b3-4d3f-9c3e-5c8f2faf7910
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.famous_cricketer
+id: node.famous_cricketer.created
+field_name: created
+entity_type: node
+bundle: famous_cricketer
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

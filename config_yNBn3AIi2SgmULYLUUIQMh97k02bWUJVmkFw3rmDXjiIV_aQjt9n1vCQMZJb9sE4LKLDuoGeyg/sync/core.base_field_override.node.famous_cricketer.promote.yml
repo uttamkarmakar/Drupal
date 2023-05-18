@@ -1,0 +1,22 @@
+uuid: 4e82a15f-dc31-4d8a-bb23-8fa6a9ffe322
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.famous_cricketer
+id: node.famous_cricketer.promote
+field_name: promote
+entity_type: node
+bundle: famous_cricketer
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: f0fa88cd-514f-479c-9047-c43feb3160ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.famous_cricketer
+id: node.famous_cricketer.sticky
+field_name: sticky
+entity_type: node
+bundle: famous_cricketer
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

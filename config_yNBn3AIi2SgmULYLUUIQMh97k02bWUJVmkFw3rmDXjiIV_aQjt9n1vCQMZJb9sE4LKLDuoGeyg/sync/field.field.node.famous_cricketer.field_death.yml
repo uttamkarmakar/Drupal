@@ -1,0 +1,21 @@
+uuid: 5e694320-186f-4cf0-ba00-0ba720a7e235
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_death
+    - node.type.famous_cricketer
+  module:
+    - datetime
+id: node.famous_cricketer.field_death
+field_name: field_death
+entity_type: node
+bundle: famous_cricketer
+label: Death
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

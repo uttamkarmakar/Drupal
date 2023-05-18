@@ -1,0 +1,18 @@
+uuid: 6e472610-4643-42f7-b2fb-126342d2a0c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.famous_cricketer
+id: node.famous_cricketer.changed
+field_name: changed
+entity_type: node
+bundle: famous_cricketer
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

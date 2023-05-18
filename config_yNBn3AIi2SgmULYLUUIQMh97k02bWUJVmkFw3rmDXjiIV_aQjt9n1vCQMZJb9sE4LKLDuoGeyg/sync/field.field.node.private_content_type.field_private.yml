@@ -1,0 +1,27 @@
+uuid: 2fa1a8a0-a6d6-4c67-a303-3a175ef8b0b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_private
+    - node.type.private_content_type
+  module:
+    - file
+id: node.private_content_type.field_private
+field_name: field_private
+entity_type: node
+bundle: private_content_type
+label: private
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf jpg jpeg png'
+  max_filesize: 30MB
+  description_field: false
+field_type: file

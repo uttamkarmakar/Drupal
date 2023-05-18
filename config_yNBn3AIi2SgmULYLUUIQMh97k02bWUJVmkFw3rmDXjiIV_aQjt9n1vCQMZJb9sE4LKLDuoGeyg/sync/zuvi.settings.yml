@@ -1,0 +1,42 @@
+_core:
+  default_config_hash: _0b2Dyb993JzkbRlFnYz7hMynhBxgPtAERPG2BDTudI
+favicon:
+  mimetype: image/jpeg
+  path: 'public://cricket2_0.jpg'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://cricket2.jpg'
+  use_default: false
+all_icons_show: 1
+facebook_url: 'https://www.facebook.com/idewdot'
+twitter_url: 'https://twitter.com/dewdots'
+instagram_url: 'https://www.instagram.com/google'
+linkedin_url: 'https://in.linkedin.com/company/google'
+youtube_url: 'https://www.youtube.com/user/Google'
+vimeo_url: 'https://vimeo.com/'
+telegram_url: 'https://telegram.org/'
+whatsapp_url: 'https://web.whatsapp.com/'
+github_url: 'https://github.com/'
+vk_url: ''
+circle_type: circle_solid
+slider_show: 1
+slider_code: "<li>\r\n  <h1>Welcome to <em>World of Cricket</em>Created by<em> Uttam Karmakar</em> </h1>\r\n  <p>Eat,Sleep,Engaged in cricket and Repeat</p>\r\n  <a class=\"button-link\" href=\"#\">Get Started</a>\r\n</li>\r\n<li>\r\n  <h1>Welcome To <em>World</em> of cricket</h1>\r\n  <p>We present you a amazing expirence related cricket.</p>\r\n  <a class=\"button-link\" href=\"#\">Get Started</a>\r\n</li>\r\n<li>\r\n  <h1>We Create <em>Awesome</em>  Cricketing Expreences</h1>\r\n  <p>Come join with us.</p>\r\n  <a class=\"button-link\" href=\"#\">Get Started</a>\r\n</li>"
+slider_image:
+  - '3'
+slider_image_path: ''
+front_sidebar: 1
+comment_user_pic: 1
+node_author_pic: 0
+node_tags: 0
+font_icon_fontawesome: 1
+font_icon_material: 1
+copyright_text: 1
+scrolltotop_on: 1
+styling: 1
+styling_code: ''
+font_icon_fontawesome5: 0

@@ -1,0 +1,29 @@
+uuid: c426b215-b702-4fd4-af90-1462d98d2dd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ipl_kings
+  module:
+    - system
+    - views
+  theme:
+    - zuvi
+id: views_block__ipl_kings_block_1
+theme: zuvi
+region: sidebar_first
+weight: -16
+provider: null
+plugin: 'views_block:ipl_kings-block_1'
+settings:
+  id: 'views_block:ipl_kings-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about-us/ipl-kings

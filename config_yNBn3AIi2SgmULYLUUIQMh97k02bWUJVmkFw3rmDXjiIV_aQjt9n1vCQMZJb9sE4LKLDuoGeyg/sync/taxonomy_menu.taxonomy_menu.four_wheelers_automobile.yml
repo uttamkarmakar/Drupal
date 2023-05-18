@@ -1,0 +1,16 @@
+uuid: 81b544c9-731a-4a5c-b9fe-044dcd80139c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.four-wheelers-automobile
+    - taxonomy.vocabulary.cars
+id: four_wheelers_automobile
+label: 'Four Wheelers Automobile'
+vocabulary: cars
+menu: four-wheelers-automobile
+expanded: false
+depth: 0
+menu_parent: 'main:'
+description_field_name: ''
+use_term_weight_order: true

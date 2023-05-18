@@ -1,0 +1,33 @@
+uuid: cbe20296-0e95-4427-a14b-300eb25ab8b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_dept
+field_name: field_dept
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: IT
+      label: IT
+    -
+      value: Management
+      label: Management
+    -
+      value: HR
+      label: HR
+    -
+      value: Accounts
+      label: Accounts
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 4
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

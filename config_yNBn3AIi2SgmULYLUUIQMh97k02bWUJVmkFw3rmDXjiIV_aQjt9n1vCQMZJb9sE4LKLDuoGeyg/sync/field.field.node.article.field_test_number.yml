@@ -1,0 +1,23 @@
+uuid: 4a6441ea-b843-4322-892e-e54c357e9622
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_number
+    - node.type.article
+id: node.article.field_test_number
+field_name: field_test_number
+entity_type: node
+bundle: article
+label: 'Test Number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

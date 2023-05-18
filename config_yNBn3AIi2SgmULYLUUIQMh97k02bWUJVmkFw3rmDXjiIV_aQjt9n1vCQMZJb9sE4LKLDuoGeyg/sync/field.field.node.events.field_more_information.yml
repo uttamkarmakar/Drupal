@@ -1,0 +1,29 @@
+uuid: 0d5f1b0e-6ddb-45e3-9a6c-5c8c65e71b17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_more_information
+    - node.type.events
+    - node.type.page
+id: node.events.field_more_information
+field_name: field_more_information
+entity_type: node
+bundle: events
+label: 'More Information'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

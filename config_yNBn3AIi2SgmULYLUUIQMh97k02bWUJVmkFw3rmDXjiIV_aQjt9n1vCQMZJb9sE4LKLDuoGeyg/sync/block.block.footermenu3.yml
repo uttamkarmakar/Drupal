@@ -1,0 +1,30 @@
+uuid: 40a81d08-7746-443e-8164-2bbe64227720
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6996a574-6291-4bf5-9976-a3a550398f05'
+  module:
+    - block_content
+    - system
+  theme:
+    - zuvi
+id: footermenu3
+theme: zuvi
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:6996a574-6291-4bf5-9976-a3a550398f05'
+settings:
+  id: 'block_content:6996a574-6291-4bf5-9976-a3a550398f05'
+  label: 'Footer menu 3'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home
