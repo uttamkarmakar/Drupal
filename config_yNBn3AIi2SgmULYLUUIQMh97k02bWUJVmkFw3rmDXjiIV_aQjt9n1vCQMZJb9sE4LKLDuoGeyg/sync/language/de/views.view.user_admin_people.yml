@@ -14,7 +14,7 @@ display:
           label: Status
           settings:
             format_custom_false: Gesperrt
-            format_custom_true: 'Sichtbar und für Buchungen freigegebn'
+            format_custom_true: Aktiv
         roles_target_id:
           label: Rollen
         created:
@@ -61,7 +61,7 @@ display:
             label: Status
             group_items:
               1:
-                title: 'Sichtbar und für Buchungen freigegebn'
+                title: Aktiv
               2:
                 title: Gesperrt
         roles_target_id:

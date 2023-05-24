@@ -12,12 +12,13 @@ module:
   coffee: 0
   comment: 0
   config: 0
+  config_filter: 0
+  config_split: 0
   config_translation: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
-  devel: 0
   devel_generate: 0
   devel_php: 0
   dynamic_page_cache: 0
